@@ -1,0 +1,217 @@
+html, body {
+  font-family:"Tahoma";
+  padding:0px;
+  margin:0px;
+  width:100%;
+  height:100%;
+}
+
+body {
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#wrapper {
+    width:75%;
+    height:100%;
+    max-width:600px;
+}
+
+#title-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height:60%;
+    min-height:400px;
+    max-height:700px;
+}
+
+#title {
+    font-family: "Montserrat";
+    font-size:2em;
+    padding:20px;
+    border-radius:4px;
+}
+
+#bottom-nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height:100%;
+    width:100%;
+    max-width:1000px;
+    padding:10px
+}
+
+#bottom-nav > a:hover {
+    background-color:#ff8330;
+    color:white;
+}
+
+#bottom-nav > a {
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#bottom-nav > a > h3 {
+    margin:8px 12px 8px 12px;
+}
+
+p {
+  color: gray;
+  font-size:12px;
+}
+
+h1 {
+    margin:0px
+}
+
+.subtitle {
+    font-size:14px;
+}
+
+#wrapper {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.calendar-section {
+  width:100%;
+  height:100%;
+  max-width:900px;
+  padding:4px;
+  display:flex;
+  flex-direction:row;
+  align-content:space-between;
+  background-color:white;
+  border-radius:4px;
+  border:1px solid rgba(0,0,0,0.4);
+  box-shadow:0px 0px 6px 1px rgba(0,0,0,0.3);
+}
+
+.day {
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  height:20px;
+  margin:2px;
+  border-radius:2px;
+  border:1px solid rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.08);
+  box-shadow:0px 1px 1px 0px rgba(0,0,0,0.3);
+}
+
+.weekend {
+  background-color:rgba(0,0,0,0.2);
+}
+
+.spacer {
+  box-shadow:none;
+  background-color:white;
+  border:none;
+}
+
+.today {
+  border:2px dashed black;
+}
+
+.bills {
+  background-color:#261509;
+  display:flex;
+  flex-direction:column;
+}
+
+.bills:hover {
+    background-color:white;
+    cursor:pointer;
+    box-shadow:0px 1px 2px 1px rgba(0,0,0,0.66);
+}
+
+.income {
+  background-color:rgba(134,164,142,0.7);
+}
+
+.cycle {
+  background-color: #F0A8A8;
+}
+
+.birthday {
+  background-color:#703569;
+}
+
+.vacation {
+  background-color:#E8AB5C;
+}
+
+.vacation:hover {
+    box-shadow:0px 1px 2px 1px rgba(0,0,0,0.66);
+    cursor:pointer;
+}
+
+
+
+//---------------------------------------------------//
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: segoe ui, helvetica neue, helvetica, arial, sans-serif;
+  line-height: 1;
+}
+
+body {
+  font-size: 16px;
+}
+
+.header {
+  display:none;
+  background: #ff8330;
+  width: 500px;
+  margin: 50px auto;
+}
+
+.header .top {
+  overflow: hidden;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header .top .navLink {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 130%;
+  float: left;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header .nav {
+  overflow: hidden;
+  height: 0; 
+}
+
+.header .nav ul {
+  padding: 10px 0px 10px 0px;
+}
+
+.header .nav ul li a {
+  padding: 10px;
+  color: #fff;
+  font-size: 90%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.header .nav ul li a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
